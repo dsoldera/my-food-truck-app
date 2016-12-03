@@ -9,8 +9,7 @@ This project has two version: Ionic 1 and Ionic 2. Each version has their Angula
 
 Its necessary to install Ionic and Cordova Globally. So run the following code:
 
-* `npm install -g ionic`
-* `npm install -g cordova`   
+* `npm install -g ionic cordova`
 
 ## Install
 1. IONIC 1
@@ -25,4 +24,6 @@ Its necessary to install Ionic and Cordova Globally. So run the following code:
 ## Development
 
 1. Interesting Links
-  * [http://ionicons.com/](http://ionicons.com/)  
+  * [Ionic Icons](http://ionicons.com/)
+  * [IOnic 1 Docs](http://ionicframework.com/docs/overview/)
+  * [Ionic 2 Docs](http://ionicframework.com/docs/v2/)  

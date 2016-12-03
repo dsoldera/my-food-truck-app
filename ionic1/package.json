@@ -1,6 +1,7 @@
 {
-  "name": "myfoodtruckapp",
-  "version": "1.1.1",
+  "name": "my-food-truck-app-ionic-1-version",
+  "version": "0.0.1",
+  "author": "Danielle Soldera",
   "description": "myfoodtruckapp: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",

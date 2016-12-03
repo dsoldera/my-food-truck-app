@@ -20,3 +20,9 @@ Its necessary to install Ionic and Cordova Globally. So run the following code:
 
 * To run the application on Browser, run inside the myfoodtruckapp folder:
   * `ionic serve`
+
+
+## Development
+
+1. Interesting Links
+  * [http://ionicons.com/](http://ionicons.com/)  

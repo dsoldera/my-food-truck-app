@@ -42,6 +42,6 @@ Its necessary to install Ionic and Cordova Globally. So run the following code:
 
 1. Interesting Links
   * [Ionic Icons](http://ionicons.com/)
-  * [IOnic 1 Docs](http://ionicframework.com/docs/overview/)
+  * [Ionic 1 Docs](http://ionicframework.com/docs/overview/)
   * [Ionic 2 Docs](http://ionicframework.com/docs/v2/)  
 

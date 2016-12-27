@@ -10,10 +10,11 @@ This project has two version: Ionic 1 and Ionic 2. Each version has their Angula
 Its necessary to install Ionic and Cordova Globally. So run the following code:
 
 * `npm install -g ionic cordova`
+* `npm install -g karma`
 
 ## Install
 1. IONIC 1 and 2
-
+ 
 * To install local depdencies run
   * `npm install`
 

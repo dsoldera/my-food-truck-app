@@ -12,7 +12,8 @@ var gulp = require('gulp'),
 
 var paths = {
   sass: ['./scss/**/*.scss'],
-  js: ['./www/app/**/*.js']
+  js: ['./www/app/**/*.js'],
+  html: ['./www/app/**/*.html']
 };
 
 gulp.task('concat', function(){
@@ -46,6 +47,7 @@ gulp.task('sass', function(done) {
 gulp.task('watch', function() {
   gulp.watch(paths.sass, ['sass']);
   gulp.watch(paths.js, ['concat']);
+  gulp.watch(paths.html, ['concat']);
 });
 
 

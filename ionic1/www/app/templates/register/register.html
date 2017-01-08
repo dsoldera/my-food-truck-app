@@ -1,6 +1,17 @@
-<ion-view view-title="Register" ng-controller="RegisterCtrl">
+<ion-view view-title="Register" data-ng-controller="RegisterCtrl as vm">
   <ion-content class=" padding has-header">
     <h1>Register User</h1>
+
+    <div class="row header">
+        <p class="col">First</p>
+        <p class="col">Last</p>
+        <p class="col">Lunch $</p>
+      </div>
+      <div class="row" data-ng-repeat="p in vm.users | filter:personFilter">
+       <p class="col">{{p.first}}</p>
+       <p class="col">{{p.last}}</p>
+       <p class="col">{{p.lunchMoney | currency}}</p>
+      </div>
 
     <a href="#/app/user/21" class="button button-positive">Go to User Details</a>
   </ion-content>

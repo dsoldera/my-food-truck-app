@@ -1,5 +1,12 @@
-<ion-view view-title="My Account" ng-controller="MyAccountCtrl">
+<ion-view view-title="My Account" ng-controller="MyAccountCtrl as vm">
   <ion-content class=" padding has-header">
     <h1>My Account</h1>
+
+    <div class="list">
+      <a ng-click="vm.selectLeague(league.id)" class="item item-icon-right" ng-repeat="league in vm.league">
+        {{ league.name }}
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </a>
+    </div>
   </ion-content>
 </ion-view>
